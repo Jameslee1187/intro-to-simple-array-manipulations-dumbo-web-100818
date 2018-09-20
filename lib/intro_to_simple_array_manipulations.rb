@@ -30,5 +30,8 @@ def using_flatten(private_colleges_in_newyork)
 end
 def using_delete(instructors, string)
   instructors.delete(string)
+end using_delete_at(array, integer)
+array.delete_at(integer)
 end
+
 
